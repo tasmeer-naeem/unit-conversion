@@ -90,6 +90,10 @@ export default {
           // console.log('incorrect')
           this.result = "incorrect";
         }
+        if (!Number(this.teacherValue)) {
+         //  console.log('invalid')
+          this.result = "invalid";
+        } 
       }
       /// fahrenheit
       if (this.selectedteacherValue === "Fahrenheit") {
